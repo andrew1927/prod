@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  	<div class="content-wrapper">
+      <section class="main">
+        <header>
+          <p>welcome to viseven <span>imagestock</span></p>
+        </header>
+        <div class="gallery"></div>
+      </section>
+      <section class="popup">
+        <div class="popup-bg"></div>
+        <div id="popup">
+          <div class="popup-votes">
+            <img src="images/img4.png" alt="">
+            <div class="popup-info">
+              <div class="popup-likesInfo">
+                <div class="likesImg"></div> 
+                <div class="circle"></div>
+              </div> 
+              <div class="popup-dislikesInfo">
+                <div class="dislikesImg"></div> 
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="popup-comments">
+              <p id="comments">Comments:<span></span></p>
+              <div class="comments-wrapper">
+                <ul>
+                  <li>
+                    <div class='comment-info'>
+                      <span class="author"></span>
+                      <span class="date"></span>
+                    </div>
+                    <span class="comment"></span>
+                  </li>
+                </ul>
+              </div>
+              <input class="send-input message" id="message" placeholder="Type your nickname here..." type="text" name="text">
+              <input class="send-input message" id="message" placeholder="Write your comment here..." type="text" name="text">
+               <input class="button" name="submit" type="button">
+          </div> 
+        <div class="close"></div>
+        </div>
+      </section>
+  	</div>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
